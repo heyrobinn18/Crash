@@ -117,7 +117,7 @@ function GetChain(seed, amount = 1000, goodValue = 2) {
         if (isGood) goodCount++;
 
         const div = document.createElement('div');
-        div.textContent = multiplier.toFixed(2) + 'X';
+        div.textContent = multiplier.toFixed(2);
         div.className = `crash ${isGood ? 'bom' : 'ruim'}`;
         resultsDiv.appendChild(div);
     }
